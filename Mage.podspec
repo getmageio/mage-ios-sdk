@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Smart pricing for your in-app purchases! Distributing products globally shouldn’t be a “one price fits all”-strategy.
+Get started with Mage to scale your products worldwide.
                        DESC
 
   s.homepage         = 'https://github.com/getmageio/mage-ios-sdk'
