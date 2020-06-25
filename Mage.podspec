@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Mage'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Mage.'
+  s.summary          = 'Mage iOS SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Patrick Blaesing/Mage'
+  s.homepage         = 'https://github.com/getmageio/mage-ios-sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Patrick Blaesing' => 'mklb@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/Patrick Blaesing/Mage.git', :tag => s.version.to_s }
+  s.author           = { 'Patrick Blaesing' => 'patrick@getmage.io' }
+  s.source           = { :git => 'https://github.com/getmageio/mage-ios-sdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

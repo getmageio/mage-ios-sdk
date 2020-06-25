@@ -1,0 +1,6 @@
+framework module Mage {
+  umbrella header "Mage-umbrella.h"
+
+  export *
+  module * { export * }
+}
