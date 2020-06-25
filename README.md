@@ -1,4 +1,8 @@
-# Mage
+<p align="center"><a href="https://www.getmage.io/"><img width="660" src="https://uploads-ssl.webflow.com/5eb96fb23eccf7fcdeb3d89f/5ef20b997a17d70677effb6f_header.svg"></a></p>
+
+# Mage iOS SDK
+
+Distributing products globally should not be a one price fits all strategy. Get started with Mage to scale your products worldwide!
 
 [![CI Status](https://img.shields.io/travis/Patrick Blaesing/Mage.svg?style=flat)](https://travis-ci.org/Patrick Blaesing/Mage)
 [![Version](https://img.shields.io/cocoapods/v/Mage.svg?style=flat)](https://cocoapods.org/pods/Mage)
