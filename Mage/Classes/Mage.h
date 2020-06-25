@@ -1,8 +1,12 @@
 #import <StoreKit/StoreKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface Mage : NSObject <SKPaymentTransactionObserver, SKProductsRequestDelegate>
-+ (Mage *) sharedInstance;
++ (Mage*) sharedInstance;
 - (void) setOptions: (NSDictionary*)options;
-- (NSString*) getIdFromProductName: (NSString*)productName;
-- (NSString*) getProductNameFromId: (NSString*)iapID;
+- (void) getProductNameFromId: (NSString*)iapID completionHandler: (void (^)(NSError* err, NSString* productName))completion;
+- (NSString*) getIdFromProductName: (NSString*)productName withFallback:(NSString*)fallbackId;
 @end
+
+NS_ASSUME_NONNULL_END

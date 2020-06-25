@@ -29,7 +29,7 @@
 
 - (void) loadPrices:(NSTimer*)t {
 
-    NSLog(@"Loaded product: %@", [[Mage sharedInstance] getIdFromProductName:@"Consumable A"]);
+    NSLog(@"Loaded product: %@", [[Mage sharedInstance] getIdFromProductName:@"Consumable A" withFallback:@"com.myapp.fallbackID"]);
 }
 
 - (void)didReceiveMemoryWarning

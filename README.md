@@ -52,11 +52,8 @@ Wherever you show in app purchases call `getIdFromProductName` to get the correc
 
 ```objective-c
 // Get the correct in app purchase id to show to the user
-NSString *myInAppPurchaseID = [[Mage sharedInstance] getIdFromProductName:@"MyProProduct"];
-// In some cases (no internet connection) the method will return [NSNull null] so defining a fallback is not a bad idea
-if([err isEqual:[NSNull null]]){
-  myInAppPurchaseID = @"com.myApp.myFallBackID"
-}
+// In some cases (no internet connection) the method won't return anything so defining a fallback is not a bad idea!
+NSString *myInAppPurchaseID = [[Mage sharedInstance] getIdFromProductName:@"MyProduct" withFallback:@"com.myapp.fallbackID"]
 ```
 
 ### 3) Know what you sold
@@ -66,7 +63,11 @@ your own backend or for some custom logic inside your app. `getProductNameFromId
 
 ```objective-c
 // Get the correct in app purchase id to show to the user
-NSString *productName = [[Mage sharedInstance] getProductNameFromId:@"com.myApp.someProductID"];
+[[Mage sharedInstance] getProductNameFromId:@"com.myapp.someIapID" completionHandler:^(NSError * _Nonnull err, NSString * _Nonnull productName) {
+  if(!err){
+    NSLog(@"User bought: %@", productName);
+  }
+}];
 ```
 
 

@@ -14,6 +14,7 @@
 #define APIURLLUMOS @"https://room-of-requirement.getmage.io/v1/lumos"
 #define APIURLACCIO @"https://room-of-requirement.getmage.io/v1/accio"
 
+#define MAGEERRORDOMAIN @"MAGEDOMAIN"
 #define LOCALCACHEKEY @"MageLocalCache"
 #define LOCALCACHEKEYSUPPORT @"MageLocalCacheSupport"
 #define MAGEDEBUG false
@@ -51,7 +52,7 @@ bool scheduledSaveStateInProgress;
 // -------------------------------------------
 #pragma mark - Public methods
 
-+ (Mage *) sharedInstance {
++ (Mage*) sharedInstance {
     static Mage *sharedInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -142,19 +143,28 @@ bool scheduledSaveStateInProgress;
 // -------------------------------------------
 // UTILITY HELPERS
 // -------------------------------------------
-- (nullable NSString*) getProductNameFromId: (NSString*)iapID{
+- (void) getProductNameFromId: (NSString*)iapID completionHandler: (void (^)(NSError* err, NSString* productName))completion{
     MageLog(@"%@", iapID);
 
     for (NSDictionary* internalIapObj in supportState[@"cachedProducts"]) {
         if([internalIapObj[@"iapIdentifier"] isEqualToString:iapID]){
-            return internalIapObj[@"productName"];
+            completion(nil, internalIapObj[@"productName"]);
         }
     }
-    
-    return [NSNull null];
+
+    NSDictionary *userInfo = @{
+        NSLocalizedDescriptionKey: NSLocalizedString(@"No product found.", nil),
+        NSLocalizedFailureReasonErrorKey: NSLocalizedString(@"Could not find a product for the provided iapID", nil),
+        NSLocalizedRecoverySuggestionErrorKey: NSLocalizedString(@"call setOptions before this call.", nil)
+                              };
+
+    NSError *error = [NSError errorWithDomain:MAGEERRORDOMAIN
+                                         code:1
+                                     userInfo:userInfo];
+    completion(error,@"");
 }
 
-- (nullable NSString*) getIdFromProductName: (NSString*)productName{
+- (NSString*) getIdFromProductName: (NSString*)productName withFallback:(NSString*)fallbackId{
     MageLog(@"%@", productName);
 
     for (NSDictionary* internalIapObj in supportState[@"cachedProducts"]) {
@@ -163,7 +173,7 @@ bool scheduledSaveStateInProgress;
         }
     }
     
-    return [NSNull null];
+    return fallbackId;
 }
 
 - (NSMutableDictionary*) generateRequestObject:(nullable NSMutableDictionary*)purchaseDic{
@@ -228,8 +238,7 @@ bool scheduledSaveStateInProgress;
             return;
         }
 
-        NSHTTPURLResponse *asHTTPResponse = (NSHTTPURLResponse *) response;
-        MageLog(@"The response is: %@", asHTTPResponse);
+        MageLog(@"The response is: %@", (NSHTTPURLResponse *)response);
         NSError *parseError2 = nil;
 
         NSDictionary *result = [NSJSONSerialization JSONObjectWithData:data
@@ -713,7 +722,7 @@ bool scheduledSaveStateInProgress;
     if (@available(iOS 13.0, *)) {
         return [[[SKPaymentQueue defaultQueue] storefront] countryCode];
     } else {
-        return [NSNull null];
+        return nil;
     }
 }
 
