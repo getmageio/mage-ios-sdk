@@ -1,18 +1,18 @@
 {
   "name": "Mage",
   "version": "0.1.0",
-  "summary": "A short description of Mage.",
+  "summary": "Mage iOS SDK",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Patrick Blaesing/Mage",
+  "homepage": "https://github.com/getmageio/mage-ios-sdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Patrick Blaesing": "mklb@users.noreply.github.com"
+    "Patrick Blaesing": "patrick@getmage.io"
   },
   "source": {
-    "git": "https://github.com/Patrick Blaesing/Mage.git",
+    "git": "https://github.com/getmageio/mage-ios-sdk.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Please note that our SDK currently just works on iOS 11 and up.
 
 ## Installation
 
@@ -20,9 +21,54 @@ it, simply add the following line to your Podfile:
 pod 'Mage'
 ```
 
-## Author
+## How to use Mage in your iOS project
 
-Patrick Blaesing, mklb@users.noreply.github.com
+### 1) Set the API Key in your AppDelegate.m
+
+```objective-c
+#import <Mage/Mage.h>
+// ...
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+  // ...
+  [[Mage sharedInstance] setOptions:@{
+    // Set your API key
+    @"apiKey": @"YOUR_API_KEY",
+    // Indicate if your app is running on a consumer device.
+    // Please not that production should not be set to true if your app runs on real testing devices!
+    // Default: false
+    @"production": @(TRUE),
+    // Optional: strict mode. The SDK will crash when errors occur.
+    // This way you can test if you set up the SDK correctly!
+    // Default: false
+    @"strict": @(FALSE)
+  }];
+  // ...
+}
+```
+
+### 2) Get your in app purchase IDs
+
+Wherever you show in app purchases call `getIdFromProductName` to get the correct in app purchase ID. This could be, for example, somewhere in your ViewController for your store view / popup.
+
+```objective-c
+// Get the correct in app purchase id to show to the user
+NSString *myInAppPurchaseID = [[Mage sharedInstance] getIdFromProductName:@"MyProProduct"];
+// In some cases (no internet connection) the method will return [NSNull null] so defining a fallback is not a bad idea
+if([err isEqual:[NSNull null]]){
+  myInAppPurchaseID = @"com.myApp.myFallBackID"
+}
+```
+
+### 3) Know what you sold
+
+In some cases you might want to know what the user bought so you can send it to a CRM,
+your own backend or for some custom logic inside your app. `getProductNameFromId` will help you out!
+
+```objective-c
+// Get the correct in app purchase id to show to the user
+NSString *productName = [[Mage sharedInstance] getProductNameFromId:@"com.myApp.someProductID"];
+```
+
 
 ## License
 

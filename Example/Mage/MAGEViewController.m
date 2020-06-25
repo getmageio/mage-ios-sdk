@@ -7,6 +7,7 @@
 //
 
 #import "MAGEViewController.h"
+#import <Mage/Mage.h>
 
 @interface MAGEViewController ()
 
@@ -18,6 +19,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [NSTimer scheduledTimerWithTimeInterval:3.0
+                                     target:self
+                                   selector:@selector(loadPrices:)
+                                   userInfo:nil
+                                    repeats:NO];
+}
+
+- (void) loadPrices:(NSTimer*)t {
+
+    NSLog(@"Loaded product: %@", [[Mage sharedInstance] getIdFromProductName:@"Consumable A"]);
 }
 
 - (void)didReceiveMemoryWarning

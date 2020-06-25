@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Mage.h"
 
 FOUNDATION_EXPORT double MageVersionNumber;
 FOUNDATION_EXPORT const unsigned char MageVersionString[];

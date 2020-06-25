@@ -7,12 +7,19 @@
 //
 
 #import "MAGEAppDelegate.h"
+#import <Mage/Mage.h>
+
 
 @implementation MAGEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[Mage sharedInstance] setOptions:@{
+        @"apiKey": @"749392738494832672820",
+        @"production": @(TRUE),
+    }];
+
     return YES;
 }
 

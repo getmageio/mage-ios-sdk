@@ -21,13 +21,12 @@
 		15C0054801F96BA3329545B1FAA6A85E /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4911FA0AC532C296638451881684C /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		188A55E8570219DC971027460C2BCF1B /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 10ABE6CBD5572D636D1448F5C0A65F33 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		19621E59AF2C3772FF6290740DB6EAB4 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = A6785D611ED60D8B0EC004F4E7479B16 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1CDA97140D9107C24C64036767D264F7 /* Mage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B173A57E07A5821A65389BC6CC4826 /* Mage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA0D6FF0A1CFC4ED230A787B21E4AAB /* Mage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 578D2E6B0D4B381DB7AD414869B35FBD /* Mage-dummy.m */; };
 		1CF5E91F1AE39E4CA72E7CB9DC066BC5 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 501E57A78436A4163896FB168F872D8D /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EDA4657EEF6B795B643063E05E8DC57 /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D1284C71A60B75D1DCA4EC3521C85 /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		20471DE376ACB94F0E144A26EFFCFD21 /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C9B713C37ED2154E6EA7B3FC5E9627 /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		244D8552B11F2D1B417EBB82BBE9E938 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 340D2601B4668BC30CB14F78C2A7E622 /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		25C2905BD04D69AB3CCA7BCC93D07AC7 /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4806AB85BEF89B09A786A7186E2CF8C0 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2838A91489BCB7F9462E87835C769866 /* Mage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA52A34611BEA79157A519E350BAE2A3 /* Mage-dummy.m */; };
 		28F23E68E55462EBC24ABF2F2F131255 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2F36D66BA083C8B035E136182E3578 /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A46DD69C90BDFA0AD55A31D0F16A78A /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E558F8EBB86DE9D6A42D59452442BE8 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A993075734BBAE515136C3A9E3F8D1D /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E0EFE49A8B374E1A2D71A686AA6A03 /* SPTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,6 +60,7 @@
 		59D34E8065607E956AC2DC046E76B743 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB8B84CE88B4791589AA36CD1EF71F2 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C6754FDD1DFAD63B3689EE5A7897F01 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B04CCD11D71B8DA01323427A6618DB4 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C8A35F9659B4241B5949C9056269389 /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBFD330B5D79D8404F1344BC8E76B9 /* SPTCompiledExample.m */; };
+		5CEB2DF223F23019159A573A1A198ADA /* Mage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6330044FFA594650831BB2D56A1245C /* Mage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DD71838737687E6FA4583D98B08D7D4 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125D320FDD50FCA5C7066D976DEABAE /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		61CA94EF2639807466427720DA2091C6 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E951EB6234E81F078F3EDE744206C5F /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		63A0BE650141BBE5D9F57E42A36C7CE5 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A96AB2161AC135AB694363282EDF58A3 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -82,7 +82,6 @@
 		88B1F2202F8E1BA69FF9FFD599C71A53 /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 418665583867CCAFAE1E08A59285672D /* XCTestCase+Specta.m */; };
 		8B8CB2F1361DD1EA4711D54F596569F4 /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAB03A578AE16502A5C72406DD68274 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E79D808BDDDDEDE44F06E9755CF3F4D /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD6F789C64809BE240F873718FA5265 /* SpectaUtility.m */; };
-		9036F506F9AD1243856E1AA9D70DB79E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
 		91F08081D0286CC0733C2D5A9B4A8F32 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = D72D4C3911D235EF89DCA93641D238BB /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		93076F6F0B96EAD80F67BC760A3FC0AD /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C142630DF7616A552145B5F5E1FE5F /* SPTTestSuite.m */; };
 		935C2C609A0CA74DD05C344275E76F3E /* Pods-Mage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 696086E3B05C2C917C32ED43718EFB41 /* Pods-Mage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -90,6 +89,7 @@
 		96BC54118F99CACBCEDE0B64784E0737 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB73890739F1D1864A3FA48A2E37F157 /* Expecta-dummy.m */; };
 		97D9A825385A35B046B1DFF01F24136F /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3024BCB728114C9517479C42338F82 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AC1A3902FC9162C9B432B411928B215 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = F54C4B4E9A2D9A0D88F2852FD1466E59 /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A819B029331A6AC30594D60599D77881 /* Mage.m in Sources */ = {isa = PBXBuildFile; fileRef = C98726A6DD8CE6D1DDF94B64F4BCDF6E /* Mage.m */; };
 		ACBDE7479CEDFD9F3261E26D6B1015FC /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF9157831B87F7B1EEEF850B09E1445 /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0556227077A1AEED50A9562603FCF05 /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DA2D06A1237EE72CE03D4ED1C91BB3 /* SPTExample.m */; };
 		B24C0951E730C8D7B6539598555A0126 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = F1688222BBCFCCCC2670A2801EC16937 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -106,6 +106,7 @@
 		CAEE0E44BC37459BD49C0B1D626B0477 /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F9ADBDA4B3EBAE6C43B435A2D5E5F1 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D29E4FBD73A12AB448D1B2AD83E56948 /* Pods-Mage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F48E39D8693FAD943AB4F752060F560 /* Pods-Mage_Tests-dummy.m */; };
 		D327EEB8522F6389513EB84ACF12F242 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = C346FB385E646787BCDA910EA29E552E /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D5A24196DD45CCC8FBE0744CE13A543D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
 		D5C3E91A2121AE27F99028292B9436A8 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DFAADECAC34707F7DDB000FED3C6F77 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB3C194E927FF147C0B12238CEB0B51A /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 1720DD77632119A9AE92F1EDE0507651 /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFF33BEB222CF58005C06FF0CD556DF /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = A2007DAF76851C515B41D1AAEE130286 /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -113,12 +114,12 @@
 		DE3FA3B98CD73AE4E5C0FA57F77EA6D7 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = B44E0BCA8A998B2AC8447E511D2484DD /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE7FC5D8F81CE893DB6EDF99865350C5 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96C3AA4E7AB53637D7841F820C0945 /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E2058F4A0E7638E420DE96F8DC17AAA9 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA99BCC5B3FF6BC5A6820B203371B24 /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E2DB694FBF0EDBE0DAB67CA3C5472EEC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8BDF2479FBE00E5FAFE6D2369FACF6 /* ReplaceMe.m */; };
 		E791EEB9E7DA8C5DBDFF80A2BA7A6A4F /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 476A0452433AA98C5A7ECD63C9DAD8C9 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E969F8D679A40C630D2E855651A49D90 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBFA44EC572BCBEC15CA8C3DEFF075C /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC57F974317D76B799CFE2A018B5F9E2 /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = A833831525D5E4BA797A26D082A9B933 /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F31CCBB90D75D9E5A83545FD95954FFA /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BA88A2B2AB351294257BFEB46D734 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F3EDE6D241EE2A6D0992A24ACDDBAB35 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E41E3E45D16283667C79A4FA48C31A /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F4307A2262FC6D7FA6BC27ED31557A3E /* Mage.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DCE1F88E16B3C03A3002ADDB7BC6F0 /* Mage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4591B9C7F70268A3F94B40ADDBA5202 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDA180096A7A1AB430FDCA9B8D24337 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F67506E4C6F04D7559BE5B3CB1527F53 /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 5550D0AA0DA52E4338257E35B223241A /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA0890D59056DB07032A23E9045ECAF4 /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD92FD804094ED696C40C4EC78EB3EB /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -126,28 +127,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		09EFD373C4DFA7363949EF04D2F62534 /* PBXContainerItemProxy */ = {
+		187FAC1D322BCD77B22991537392B863 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DC371B7477C88184274EC6710690F97C;
 			remoteInfo = Expecta;
 		};
-		1CF52EFDC7315DDA4D15F957F099AE22 /* PBXContainerItemProxy */ = {
+		627B80147419E8089426F8EA2A8A66F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9048E2F5A9DCA68D6CBF9C10BF86AE8D;
 			remoteInfo = Mage;
 		};
-		35AC83D7B6DC96B8BECAED34B435D55A /* PBXContainerItemProxy */ = {
+		7FCD98380C100FB46E80FBBE7C843E6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F8676010755CF1530FC02DA9A0D8822B;
 			remoteInfo = Specta;
 		};
-		C06FD554CB946D458024DB55D8BE5088 /* PBXContainerItemProxy */ = {
+		E5B8C00023E835000594C948A7B5A5CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -158,7 +159,6 @@
 
 /* Begin PBXFileReference section */
 		00222EBBC3BBC366BD7FD3C4A6BC7785 /* Pods-Mage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mage_Example.modulemap"; sourceTree = "<group>"; };
-		006B3EF5C1301C00F64E9BC20661EC3E /* Mage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mage.release.xcconfig; sourceTree = "<group>"; };
 		0125D320FDD50FCA5C7066D976DEABAE /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		02B718F336D7F2A802B83F23DC317384 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		0321CFA0445CA40BDCD6919BFCD68A36 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
@@ -166,7 +166,8 @@
 		03F8079341ED2802C4A9649F9439C07F /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		059650BC2701690DEC7AE4BC28A640E1 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		06845B42810A18ABA0F6AA6A5ACF0218 /* Expecta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta-Info.plist"; sourceTree = "<group>"; };
-		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0829B82A9410BE70BA65C69A1192EA24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBB9CDCEC6B1D260B7D18B3767E87D2 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		0CD2325F7EB0C887E41B232C915DA91B /* Pods-Mage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0DFAADECAC34707F7DDB000FED3C6F77 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
@@ -175,7 +176,8 @@
 		11745923DAC71F891D071223F3B1548D /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
 		11B790BA3DDD31E30AA56D143221808F /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		1218DB33FF4977A659F76DFBEFD4F1D4 /* Expecta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.debug.xcconfig; sourceTree = "<group>"; };
-		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		165901FCD82D6E01BF1B4D4740ED2E5D /* Mage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Mage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1720DD77632119A9AE92F1EDE0507651 /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		1B04CCD11D71B8DA01323427A6618DB4 /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
 		1BA39E2AE0A0E3E07FABF3883D3D2480 /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
@@ -189,10 +191,10 @@
 		2C061463250766C9C05995AB8EE63E66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2FCEBD6BE320FDFBD6C4CE2FBFC4088E /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		2FDCD8C59420DCE7D4A6267D2F0D5F40 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
+		31F4EFD9D650AAF0DC9CF3401D16AA3D /* Mage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mage-Info.plist"; sourceTree = "<group>"; };
 		32C9B713C37ED2154E6EA7B3FC5E9627 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
 		332AF7E3BE22041FF1B2982C5A4B539A /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		340D2601B4668BC30CB14F78C2A7E622 /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
-		38B173A57E07A5821A65389BC6CC4826 /* Mage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mage-umbrella.h"; sourceTree = "<group>"; };
 		3B7698BC14348D11DB5988D50723090E /* Specta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.release.xcconfig; sourceTree = "<group>"; };
 		418665583867CCAFAE1E08A59285672D /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		4195EFBA924A70AE9B85B16E656B1895 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 		45E563E2BFF92AAD6F6ABCC1D637A29C /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
 		476A0452433AA98C5A7ECD63C9DAD8C9 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		4806AB85BEF89B09A786A7186E2CF8C0 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
+		48220F369597419187BA5C760EF17C89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		48E0EFE49A8B374E1A2D71A686AA6A03 /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		4A17CE1A7932CB17BE133F7EE8F77D70 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		4A645D480C5824942118A38AE83D5DB3 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
@@ -216,20 +219,23 @@
 		54F9ADBDA4B3EBAE6C43B435A2D5E5F1 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
 		5550D0AA0DA52E4338257E35B223241A /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
 		55C6A1564E8226CDD5ED59B1C9FFB619 /* Expecta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.release.xcconfig; sourceTree = "<group>"; };
+		578D2E6B0D4B381DB7AD414869B35FBD /* Mage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mage-dummy.m"; sourceTree = "<group>"; };
 		5A1A7A5F90FBB92FF4E03B13002228D9 /* Pods-Mage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mage_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5DF7B7487CD4BDB33828BC57C31AE791 /* Pods-Mage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mage_Tests.modulemap"; sourceTree = "<group>"; };
 		5EE0EF657EA8B3B7188CCF9B5801CCE7 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		62157114474A33C252A8BD92DAB859A7 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		626828D31F7FFEE4D9F497D7966D3BA9 /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
 		63F4911FA0AC532C296638451881684C /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
-		659C5B01EE882AB501F9BD339B53B45C /* Pods_Mage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mage_Tests.framework; path = "Pods-Mage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659C5B01EE882AB501F9BD339B53B45C /* Pods_Mage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C600495790C3CA74CAF7323014D0B6 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		68CE153C5AA0DBC2C25946D91FC6FEAD /* Pods-Mage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		691EB50857CC51C10FACF438F831E34D /* Specta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.debug.xcconfig; sourceTree = "<group>"; };
 		696086E3B05C2C917C32ED43718EFB41 /* Pods-Mage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6A53700542065CC24914306F32E83943 /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
+		6C7C17469CF0721EEE5AD930DD8D176A /* Mage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mage.debug.xcconfig; sourceTree = "<group>"; };
 		6DD6F789C64809BE240F873718FA5265 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		6F533323C5E448BA29B11015CEC46AE4 /* Pods-Mage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		700E2BA31CA3490AA76BCB203E4BBD49 /* Mage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mage.release.xcconfig; sourceTree = "<group>"; };
 		744DABD0BD3742D6276794A5B249BF29 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		7537D7DC93ED84C099D9FE50821E0928 /* Pods-Mage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mage_Example-Info.plist"; sourceTree = "<group>"; };
 		79492E52EF20FBD7034CB460AEAEF8E3 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
@@ -240,21 +246,20 @@
 		834A97CD6CDA8D761C8F373F65D85E3B /* Pods-Mage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		834D574DAAD1150C15D17D52E386BEC5 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		83E41E3E45D16283667C79A4FA48C31A /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
-		845A53821DC1E59E00E8E539CBA3F699 /* Mage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mage.framework; path = Mage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845A53821DC1E59E00E8E539CBA3F699 /* Mage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84877D89FE5B1486CFDC4152C2D27688 /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
 		8AA2293B9D992D8CC36D4497F2FA86C3 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
 		8B63FE2B0E8A200FD45B4C88AD9CC86E /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
 		8BA6716FB979FE69E8604BB7425E0B9A /* Pods-Mage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mage_Example-umbrella.h"; sourceTree = "<group>"; };
 		8EBBFD330B5D79D8404F1344BC8E76B9 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
-		9391C8C027C583F3C1F999195281A4B0 /* Mage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mage.debug.xcconfig; sourceTree = "<group>"; };
 		9512233FA5509DBBBFB4DAB84CE8E4FE /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		9A56DDB4B298574F74E70FBE7F1634AF /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DDFAD5DB99C9F5E54B7B0063AB8C8BE /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Specta.modulemap; sourceTree = "<group>"; };
 		A2007DAF76851C515B41D1AAEE130286 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		A400F6B9197409A428DB3B9DF7A0765D /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
 		A58040C9A69FA0C264A98C269163B6F6 /* Pods-Mage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mage_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A60D17A49BDEA898A05E3E8332053801 /* Mage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mage-prefix.pch"; sourceTree = "<group>"; };
+		A6330044FFA594650831BB2D56A1245C /* Mage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mage-umbrella.h"; sourceTree = "<group>"; };
 		A6785D611ED60D8B0EC004F4E7479B16 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		A833831525D5E4BA797A26D082A9B933 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		A96AB2161AC135AB694363282EDF58A3 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
@@ -262,41 +267,38 @@
 		ABA99BCC5B3FF6BC5A6820B203371B24 /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
 		ACF79491A8505A4FD50BEC56AC0382E1 /* Pods-Mage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mage_Tests-Info.plist"; sourceTree = "<group>"; };
 		AD36087967C18479C0A2F540B4438141 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
-		AE964B8F09D9709C7AF0A8F0E791B9A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AE96C3AA4E7AB53637D7841F820C0945 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
+		B135FBD160467F7CFB9DEFCE348A24DE /* Mage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mage-prefix.pch"; sourceTree = "<group>"; };
 		B2E7C19388671439133D10116E96EDCE /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
 		B44E0BCA8A998B2AC8447E511D2484DD /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		B6087704365422C5357A69A5317926A1 /* Pods-Mage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B8B248E1732671DF238AFF71FD92F606 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
 		BAABA40792B0344C3E185F9FBC553B38 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		BB73890739F1D1864A3FA48A2E37F157 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
+		BE33E8DA1A47D106092AE9AFEA1D2AF9 /* Mage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mage.modulemap; sourceTree = "<group>"; };
 		BFDA180096A7A1AB430FDCA9B8D24337 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
 		C3119A33DD1BCAC8389BEB014E671680 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		C346FB385E646787BCDA910EA29E552E /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		C3AFDD2A4912369B9775E4F5AB38F85C /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		C59D1284C71A60B75D1DCA4EC3521C85 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
-		C71D7B05A2D947EE148CE477B1B2A314 /* Mage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mage-Info.plist"; sourceTree = "<group>"; };
 		C9772B093039F7BCADE184B01A457D8C /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
+		C98726A6DD8CE6D1DDF94B64F4BCDF6E /* Mage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Mage.m; path = Mage/Classes/Mage.m; sourceTree = "<group>"; };
 		CA3024BCB728114C9517479C42338F82 /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
-		CA8BDF2479FBE00E5FAFE6D2369FACF6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Mage/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		CBB8B84CE88B4791589AA36CD1EF71F2 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		CC40D96799D0DD6EBDAB6AE2B821772C /* Pods-Mage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CD07D9DAF64FF866CC0BE7DE93C54E9C /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		CD9B016FE7343AFC9DB3B9E34769710E /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		CEBFA44EC572BCBEC15CA8C3DEFF075C /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
-		D173D64B8CBD3CA2EF323D78EFF3F9C8 /* Mage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Mage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1DCE1F88E16B3C03A3002ADDB7BC6F0 /* Mage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mage.h; path = Mage/Classes/Mage.h; sourceTree = "<group>"; };
 		D1EB84AA1BAC17F2DFE3FF960772E667 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
-		D2EE5E61D96453B59D08ACA1885CA693 /* Mage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mage.modulemap; sourceTree = "<group>"; };
 		D653F5D13A6A48E592C0842C16988D7F /* Pods-Mage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D72D4C3911D235EF89DCA93641D238BB /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
 		D97F2DD9788D72FEA68F235885029445 /* Specta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Specta-Info.plist"; sourceTree = "<group>"; };
 		E18DB10B91957E78E1C38104887A7B3E /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		E1DA2D06A1237EE72CE03D4ED1C91BB3 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		E3E0C6BDD9228B246232C78E1E429CDE /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
-		E4A173C649387C38828D8871FFA09C78 /* Pods_Mage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mage_Example.framework; path = "Pods-Mage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4FB112B535038013AF271DB345833EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E4A173C649387C38828D8871FFA09C78 /* Pods_Mage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C3B5CA959E14C7CA811F47B2D99E5F /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
-		EA52A34611BEA79157A519E350BAE2A3 /* Mage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mage-dummy.m"; sourceTree = "<group>"; };
 		ED2F36D66BA083C8B035E136182E3578 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		EEADFB2299B31A680BC1BD285E8872CC /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		EEB4B550FC65020C333C0E6264A7BE18 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
@@ -343,11 +345,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F915584CE69B706DBB6BA9B8EA352B1F /* Frameworks */ = {
+		DF120C3DA03EB72362B1AD041B7DDD61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9036F506F9AD1243856E1AA9D70DB79E /* Foundation.framework in Frameworks */,
+				D5A24196DD45CCC8FBE0744CE13A543D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,21 +362,6 @@
 				3E285571EF144F8DACCF451128B351DD /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1A76D873092634B8AF218C258530C846 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D2EE5E61D96453B59D08ACA1885CA693 /* Mage.modulemap */,
-				EA52A34611BEA79157A519E350BAE2A3 /* Mage-dummy.m */,
-				C71D7B05A2D947EE148CE477B1B2A314 /* Mage-Info.plist */,
-				A60D17A49BDEA898A05E3E8332053801 /* Mage-prefix.pch */,
-				38B173A57E07A5821A65389BC6CC4826 /* Mage-umbrella.h */,
-				9391C8C027C583F3C1F999195281A4B0 /* Mage.debug.xcconfig */,
-				006B3EF5C1301C00F64E9BC20661EC3E /* Mage.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Mage";
 			sourceTree = "<group>";
 		};
 		34E9BD7A23B916528514B2A751EB2C9B /* Support Files */ = {
@@ -390,6 +377,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Specta";
+			sourceTree = "<group>";
+		};
+		3D9A2E94C6461C899F40294A278E34C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED71FD13CB36940035D898829BA5B1F /* Mage */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3E285571EF144F8DACCF451128B351DD /* iOS */ = {
@@ -496,16 +491,7 @@
 				A6785D611ED60D8B0EC004F4E7479B16 /* NSValue+Expecta.m */,
 				896F33B5B663753F7481CA1670FF26F9 /* Support Files */,
 			);
-			name = Expecta;
 			path = Expecta;
-			sourceTree = "<group>";
-		};
-		56ED2EE44E57B137F23F573A584BE352 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F46CF51D956C4734219ECA6A52329315 /* Mage */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		69947DC04D46E60D75E5E34468CEF59F /* Specta */ = {
@@ -538,7 +524,6 @@
 				418665583867CCAFAE1E08A59285672D /* XCTestCase+Specta.m */,
 				34E9BD7A23B916528514B2A751EB2C9B /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -568,16 +553,6 @@
 			path = "Target Support Files/Pods-Mage_Example";
 			sourceTree = "<group>";
 		};
-		8459537F015842E7B1283874CE3130F7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E4FB112B535038013AF271DB345833EE /* LICENSE */,
-				D173D64B8CBD3CA2EF323D78EFF3F9C8 /* Mage.podspec */,
-				AE964B8F09D9709C7AF0A8F0E791B9A0 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		88D341543489D2426FD80D5D2147EF5D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -602,16 +577,53 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
+		8E44E2B33D0AEF4A8C6978CD6561784F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE33E8DA1A47D106092AE9AFEA1D2AF9 /* Mage.modulemap */,
+				578D2E6B0D4B381DB7AD414869B35FBD /* Mage-dummy.m */,
+				31F4EFD9D650AAF0DC9CF3401D16AA3D /* Mage-Info.plist */,
+				B135FBD160467F7CFB9DEFCE348A24DE /* Mage-prefix.pch */,
+				A6330044FFA594650831BB2D56A1245C /* Mage-umbrella.h */,
+				6C7C17469CF0721EEE5AD930DD8D176A /* Mage.debug.xcconfig */,
+				700E2BA31CA3490AA76BCB203E4BBD49 /* Mage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Mage";
+			sourceTree = "<group>";
+		};
+		9ED71FD13CB36940035D898829BA5B1F /* Mage */ = {
+			isa = PBXGroup;
+			children = (
+				D1DCE1F88E16B3C03A3002ADDB7BC6F0 /* Mage.h */,
+				C98726A6DD8CE6D1DDF94B64F4BCDF6E /* Mage.m */,
+				DF26E7D88A2606BDAC541B9E6A36CAA2 /* Pod */,
+				8E44E2B33D0AEF4A8C6978CD6561784F /* Support Files */,
+			);
+			name = Mage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				56ED2EE44E57B137F23F573A584BE352 /* Development Pods */,
+				3D9A2E94C6461C899F40294A278E34C1 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				6E6C170FCD35761F737081DDC00A1D80 /* Pods */,
 				E5767935EBFF63CA2919626C4E094343 /* Products */,
 				88D341543489D2426FD80D5D2147EF5D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DF26E7D88A2606BDAC541B9E6A36CAA2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0829B82A9410BE70BA65C69A1192EA24 /* LICENSE */,
+				165901FCD82D6E01BF1B4D4740ED2E5D /* Mage.podspec */,
+				48220F369597419187BA5C760EF17C89 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E5767935EBFF63CA2919626C4E094343 /* Products */ = {
@@ -624,17 +636,6 @@
 				15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F46CF51D956C4734219ECA6A52329315 /* Mage */ = {
-			isa = PBXGroup;
-			children = (
-				CA8BDF2479FBE00E5FAFE6D2369FACF6 /* ReplaceMe.m */,
-				8459537F015842E7B1283874CE3130F7 /* Pod */,
-				1A76D873092634B8AF218C258530C846 /* Support Files */,
-			);
-			name = Mage;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -718,6 +719,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4F8BEA74BE0FE833251322BD311C1566 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEB2DF223F23019159A573A1A198ADA /* Mage-umbrella.h in Headers */,
+				F4307A2262FC6D7FA6BC27ED31557A3E /* Mage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5DD8BB39133FEAE7C9CB29321A9F4D50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -726,25 +736,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDFEC650C26A4A1DE18FAC00F3F0AC7B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CDA97140D9107C24C64036767D264F7 /* Mage-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		9048E2F5A9DCA68D6CBF9C10BF86AE8D /* Mage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99849C083602C6E1F85806A0B9EEE20B /* Build configuration list for PBXNativeTarget "Mage" */;
+			buildConfigurationList = E47F5FF089DE4B4AE09BE6EFDCDFF285 /* Build configuration list for PBXNativeTarget "Mage" */;
 			buildPhases = (
-				DDFEC650C26A4A1DE18FAC00F3F0AC7B /* Headers */,
-				E1C78CE9B0149A3AE0743D5D3C4A9E29 /* Sources */,
-				F915584CE69B706DBB6BA9B8EA352B1F /* Frameworks */,
-				A66761C001AFAEFDC1BE99E49DC39A74 /* Resources */,
+				4F8BEA74BE0FE833251322BD311C1566 /* Headers */,
+				9FE2E4B764046CCAE231CCECA98E73EF /* Sources */,
+				DF120C3DA03EB72362B1AD041B7DDD61 /* Frameworks */,
+				F03AEC15D17DC3BF3D5A970437DC5CBA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -767,7 +769,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CBB0311968C8ECC8ED06537846573F3F /* PBXTargetDependency */,
+				687F7FA2D50A3881305EC36D1015A1E3 /* PBXTargetDependency */,
 			);
 			name = "Pods-Mage_Example";
 			productName = "Pods-Mage_Example";
@@ -786,9 +788,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				A107F62781482A3D42C59E915937E996 /* PBXTargetDependency */,
-				D02B63E4EFB0C605E736B384F8ABD8E7 /* PBXTargetDependency */,
-				7DEE75FE6347D91C9F80C012ECB453F7 /* PBXTargetDependency */,
+				CB8347FA5CE89D4F63C779C7211845BC /* PBXTargetDependency */,
+				53AD43240D63218B19AB786A87CAD6D6 /* PBXTargetDependency */,
+				59002500A992F705ACCA0B139D931BF4 /* PBXTargetDependency */,
 			);
 			name = "Pods-Mage_Tests";
 			productName = "Pods-Mage_Tests";
@@ -884,7 +886,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A66761C001AFAEFDC1BE99E49DC39A74 /* Resources */ = {
+		F03AEC15D17DC3BF3D5A970437DC5CBA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -977,41 +979,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1C78CE9B0149A3AE0743D5D3C4A9E29 /* Sources */ = {
+		9FE2E4B764046CCAE231CCECA98E73EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2838A91489BCB7F9462E87835C769866 /* Mage-dummy.m in Sources */,
-				E2DB694FBF0EDBE0DAB67CA3C5472EEC /* ReplaceMe.m in Sources */,
+				1CA0D6FF0A1CFC4ED230A787B21E4AAB /* Mage-dummy.m in Sources */,
+				A819B029331A6AC30594D60599D77881 /* Mage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7DEE75FE6347D91C9F80C012ECB453F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Specta;
-			target = F8676010755CF1530FC02DA9A0D8822B /* Specta */;
-			targetProxy = 35AC83D7B6DC96B8BECAED34B435D55A /* PBXContainerItemProxy */;
-		};
-		A107F62781482A3D42C59E915937E996 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Expecta;
-			target = DC371B7477C88184274EC6710690F97C /* Expecta */;
-			targetProxy = 09EFD373C4DFA7363949EF04D2F62534 /* PBXContainerItemProxy */;
-		};
-		CBB0311968C8ECC8ED06537846573F3F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mage;
-			target = 9048E2F5A9DCA68D6CBF9C10BF86AE8D /* Mage */;
-			targetProxy = 1CF52EFDC7315DDA4D15F957F099AE22 /* PBXContainerItemProxy */;
-		};
-		D02B63E4EFB0C605E736B384F8ABD8E7 /* PBXTargetDependency */ = {
+		53AD43240D63218B19AB786A87CAD6D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Mage_Example";
 			target = A807D949A2BF8AF239CC703DC8A34E25 /* Pods-Mage_Example */;
-			targetProxy = C06FD554CB946D458024DB55D8BE5088 /* PBXContainerItemProxy */;
+			targetProxy = E5B8C00023E835000594C948A7B5A5CB /* PBXContainerItemProxy */;
+		};
+		59002500A992F705ACCA0B139D931BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Specta;
+			target = F8676010755CF1530FC02DA9A0D8822B /* Specta */;
+			targetProxy = 7FCD98380C100FB46E80FBBE7C843E6E /* PBXContainerItemProxy */;
+		};
+		687F7FA2D50A3881305EC36D1015A1E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mage;
+			target = 9048E2F5A9DCA68D6CBF9C10BF86AE8D /* Mage */;
+			targetProxy = 627B80147419E8089426F8EA2A8A66F5 /* PBXContainerItemProxy */;
+		};
+		CB8347FA5CE89D4F63C779C7211845BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Expecta;
+			target = DC371B7477C88184274EC6710690F97C /* Expecta */;
+			targetProxy = 187FAC1D322BCD77B22991537392B863 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1032,7 +1034,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Expecta/Expecta-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Expecta/Expecta-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Expecta/Expecta.modulemap";
 				PRODUCT_MODULE_NAME = Expecta;
@@ -1113,6 +1115,37 @@
 			};
 			name = Debug;
 		};
+		3C0A4C8D7AAD325A47B93BB0413F0319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C7C17469CF0721EEE5AD930DD8D176A /* Mage.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mage/Mage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mage/Mage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mage/Mage.modulemap";
+				PRODUCT_MODULE_NAME = Mage;
+				PRODUCT_NAME = Mage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1166,8 +1199,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1286,7 +1318,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Expecta/Expecta-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Expecta/Expecta-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Expecta/Expecta.modulemap";
 				PRODUCT_MODULE_NAME = Expecta;
@@ -1334,6 +1366,38 @@
 			};
 			name = Debug;
 		};
+		B07BCE0A25556780CE24937C42B247D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700E2BA31CA3490AA76BCB203E4BBD49 /* Mage.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mage/Mage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mage/Mage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mage/Mage.modulemap";
+				PRODUCT_MODULE_NAME = Mage;
+				PRODUCT_NAME = Mage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B474ABC2849C6E2D66213AF10C1478DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B7698BC14348D11DB5988D50723090E /* Specta.release.xcconfig */;
@@ -1355,38 +1419,6 @@
 				MODULEMAP_FILE = "Target Support Files/Specta/Specta.modulemap";
 				PRODUCT_MODULE_NAME = Specta;
 				PRODUCT_NAME = Specta;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B7FAA665AE8496A8FDC77C89F386BA3C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 006B3EF5C1301C00F64E9BC20661EC3E /* Mage.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mage/Mage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mage/Mage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mage/Mage.modulemap";
-				PRODUCT_MODULE_NAME = Mage;
-				PRODUCT_NAME = Mage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1432,37 +1464,6 @@
 			};
 			name = Release;
 		};
-		CBDFA76DB5955C9AC4893D69A88DD53D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9391C8C027C583F3C1F999195281A4B0 /* Mage.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mage/Mage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mage/Mage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mage/Mage.modulemap";
-				PRODUCT_MODULE_NAME = Mage;
-				PRODUCT_NAME = Mage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1493,15 +1494,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99849C083602C6E1F85806A0B9EEE20B /* Build configuration list for PBXNativeTarget "Mage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CBDFA76DB5955C9AC4893D69A88DD53D /* Debug */,
-				B7FAA665AE8496A8FDC77C89F386BA3C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B65650B708C1A339A7D66C4A86676D95 /* Build configuration list for PBXNativeTarget "Pods-Mage_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1516,6 +1508,15 @@
 			buildConfigurations = (
 				3AE0A4BEF5BD0D92DB1B699C2FB2FC38 /* Debug */,
 				B474ABC2849C6E2D66213AF10C1478DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E47F5FF089DE4B4AE09BE6EFDCDFF285 /* Build configuration list for PBXNativeTarget "Mage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0A4C8D7AAD325A47B93BB0413F0319 /* Debug */,
+				B07BCE0A25556780CE24937C42B247D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
