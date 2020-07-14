@@ -95,7 +95,7 @@ bool scheduledSaveStateInProgress;
        [self apiRequest:APIURLACCIO withContent:[self generateRequestObject:nil] completionHandler:^(NSError* err, NSDictionary *dic) {
            MageLog(@"API Response: %@", dic);
 
-           if(![err isEqual:[NSNull null]] && dic && dic[@"products"]){
+           if([err isEqual:nil] && dic && dic[@"products"]){
                supportState[@"cachedProducts"] = dic[@"products"];
            }
        }];
@@ -469,7 +469,7 @@ bool scheduledSaveStateInProgress;
     if([currentState[@"isProduction"] boolValue]){
         [self apiRequest:APIURLLUMOS withContent: [self generateRequestObject:inappDict] completionHandler:^(NSError* err, NSDictionary *dic) {
             
-            if([err isEqual:[NSNull null]]){
+            if([err isEqual:nil]){
                 [unfinishedTransactions removeObjectForKey:product.productIdentifier];
                 [unfinishedProductRequests removeObjectForKey:product.productIdentifier];
             }

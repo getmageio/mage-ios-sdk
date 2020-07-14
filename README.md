@@ -4,7 +4,6 @@
 
 Distributing products globally should not be a one price fits all strategy. Get started with Mage to scale your products worldwide!
 
-[![CI Status](https://img.shields.io/travis/Patrick Blaesing/Mage.svg?style=flat)](https://travis-ci.org/Patrick Blaesing/Mage)
 [![Version](https://img.shields.io/cocoapods/v/Mage.svg?style=flat)](https://cocoapods.org/pods/Mage)
 [![License](https://img.shields.io/cocoapods/l/Mage.svg?style=flat)](https://cocoapods.org/pods/Mage)
 [![Platform](https://img.shields.io/cocoapods/p/Mage.svg?style=flat)](https://cocoapods.org/pods/Mage)
