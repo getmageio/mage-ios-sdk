@@ -8,6 +8,8 @@ Distributing products globally should not be a one price fits all strategy. Get 
 [![License](https://img.shields.io/cocoapods/l/Mage.svg?style=flat)](https://cocoapods.org/pods/Mage)
 [![Platform](https://img.shields.io/cocoapods/p/Mage.svg?style=flat)](https://cocoapods.org/pods/Mage)
 
+Before implementing the SDK please *read and complete* the [integration guide](https://www.getmage.io/documentation) on our website.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
