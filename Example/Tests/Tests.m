@@ -7,40 +7,42 @@
 //
 
 // https://github.com/Specta/Specta
+#import <Mage/Mage.h>
 
 SpecBegin(InitialSpecs)
 
-describe(@"these will fail", ^{
-
-    it(@"can do maths", ^{
-        expect(1).to.equal(2);
-    });
-
-    it(@"can read", ^{
-        expect(@"number").to.equal(@"string");
+describe(@"Mage sharedInstance", ^{
+    
+    beforeAll(^{
+        // This is an API key just for the SDK demo. (Real API keys look different!)
+        [[Mage sharedInstance] setOptions:@{
+            @"apiKey": @"749392738494832672820",
+            @"production": @(TRUE),
+        }];
     });
     
-    it(@"will wait for 10 seconds and fail", ^{
-        waitUntil(^(DoneCallback done) {
-        
-        });
-    });
-});
-
-describe(@"these will pass", ^{
-    
-    it(@"can do maths", ^{
-        expect(1).beLessThan(23);
+    it(@"can load a product", ^{
+        NSString *someProduct = [[Mage sharedInstance] getIdFromProductName:@"io.getmage.demo_app.premium_plus" withFallback:@"io.getmage.demo_app.premium_plus_1_25"];
+        expect(someProduct).toNot.equal(@"io.getmage.demo_app.premium_plus_1_25");
     });
     
-    it(@"can read", ^{
-        expect(@"team").toNot.contain(@"I");
+    it(@"falls back to default product", ^{
+        NSString *someProduct = [[Mage sharedInstance] getIdFromProductName:@"io.getmage.demo_app.NOTEXISTING" withFallback:@"io.getmage.demo_app.premium_plus_1_25"];
+        expect(someProduct).to.equal(@"io.getmage.demo_app.premium_plus_1_25");
     });
     
-    it(@"will wait and succeed", ^{
-        waitUntil(^(DoneCallback done) {
-            done();
-        });
+    it(@"can lookup a product name via an iap ID", ^{
+        [[Mage sharedInstance] getProductNameFromId:@"io.getmage.demo_app.premium_plus_1_25" completionHandler:^(NSError * _Nonnull err, NSString * _Nonnull productName) {
+            
+            expect(productName).to.equal(@"io.getmage.demo_app.premium_plus");
+        }];
+    });
+    
+    it(@"will throw an error during a product name lookup with a none existing id", ^{
+        [[Mage sharedInstance] getProductNameFromId:@"io.getmage.demo_app.NOTEXISTING" completionHandler:^(NSError * _Nonnull err, NSString * _Nonnull productName) {
+            
+            expect(err).toNot.equal(nil);
+        }];
     });
 });
 

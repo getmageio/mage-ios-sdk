@@ -17,7 +17,7 @@
 #define MAGEERRORDOMAIN @"MAGEDOMAIN"
 #define LOCALCACHEKEY @"MageLocalCache"
 #define LOCALCACHEKEYSUPPORT @"MageLocalCacheSupport"
-#define MAGEDEBUG false
+#define MAGEDEBUG true
 
 #if MAGEDEBUG
     #define MageLog(x,...) NSLog(@"%s %@", __FUNCTION__, [NSString stringWithFormat:(x), ##__VA_ARGS__])
@@ -95,8 +95,11 @@ bool scheduledSaveStateInProgress;
        [self apiRequest:APIURLACCIO withContent:[self generateRequestObject:nil] completionHandler:^(NSError* err, NSDictionary *dic) {
            MageLog(@"API Response: %@", dic);
 
-           if([err isEqual:nil] && dic && dic[@"products"]){
+           if(!err && dic && dic[@"products"]){
+               MageLog(@"setting cachedProducts with new products");
                supportState[@"cachedProducts"] = dic[@"products"];
+           }else{
+               MageLog(@"Error: %@", err);
            }
        }];
     }
@@ -186,7 +189,6 @@ bool scheduledSaveStateInProgress;
     if(purchaseDic){
         // assign purchase data
         request[@"purchase"] = purchaseDic;
-        
         // assign internal product object
         for (NSDictionary* internalIapObj in supportState[@"cachedProducts"]) {
             MageLog(@"%@ == %@", internalIapObj[@"iapIdentifier"], purchaseDic[@"product"]);
@@ -465,11 +467,11 @@ bool scheduledSaveStateInProgress;
         
     }
 
-    
     if([currentState[@"isProduction"] boolValue]){
         [self apiRequest:APIURLLUMOS withContent: [self generateRequestObject:inappDict] completionHandler:^(NSError* err, NSDictionary *dic) {
             
-            if([err isEqual:nil]){
+            if(!err){
+                MageLog(@"Error: %@", err);
                 [unfinishedTransactions removeObjectForKey:product.productIdentifier];
                 [unfinishedProductRequests removeObjectForKey:product.productIdentifier];
             }
