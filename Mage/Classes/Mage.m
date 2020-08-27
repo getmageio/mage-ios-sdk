@@ -185,6 +185,7 @@ bool scheduledSaveStateInProgress;
     // assign state
     request[@"state"] = currentState;
     request[@"state"][@"time"] = @([self getCurrentTimeStamp]);
+    request[@"products"] = supportState[@"cachedProducts"];
     
     if(purchaseDic){
         // assign purchase data
