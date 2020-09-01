@@ -14,27 +14,25 @@ SpecBegin(InitialSpecs)
 describe(@"Mage sharedInstance", ^{
     
     beforeAll(^{
-        // This is an API key just for the SDK demo. (Real API keys look different!)
-        [[Mage sharedInstance] setOptions:@{
-            @"apiKey": @"749392738494832672820",
-            @"production": @(TRUE),
-        }];
+        NSLog(@"\n----------------------------------------------------\n");
+        NSLog(@"\n                 MAGE iOS SDK TEST                  \n");
+        NSLog(@"\n----------------------------------------------------\n");  
     });
     
     it(@"can load a product", ^{
-        NSString *someProduct = [[Mage sharedInstance] getIdFromProductName:@"io.getmage.demo_app.premium_plus" withFallback:@"io.getmage.demo_app.premium_plus_1_25"];
+        NSString *someProduct = [[Mage sharedInstance] getIdFromProductName:@"premium_plus" withFallback:@"io.getmage.demo_app.premium_plus_1_25"];
         expect(someProduct).toNot.equal(@"io.getmage.demo_app.premium_plus_1_25");
     });
     
     it(@"falls back to default product", ^{
-        NSString *someProduct = [[Mage sharedInstance] getIdFromProductName:@"io.getmage.demo_app.NOTEXISTING" withFallback:@"io.getmage.demo_app.premium_plus_1_25"];
+        NSString *someProduct = [[Mage sharedInstance] getIdFromProductName:@"NOTEXISTING" withFallback:@"io.getmage.demo_app.premium_plus_1_25"];
         expect(someProduct).to.equal(@"io.getmage.demo_app.premium_plus_1_25");
     });
     
     it(@"can lookup a product name via an iap ID", ^{
-        [[Mage sharedInstance] getProductNameFromId:@"io.getmage.demo_app.premium_plus_1_25" completionHandler:^(NSError * _Nonnull err, NSString * _Nonnull productName) {
+        [[Mage sharedInstance] getProductNameFromId:@"io.getmage.demo_app.premium_plus" completionHandler:^(NSError * _Nonnull err, NSString * _Nonnull productName) {
             
-            expect(productName).to.equal(@"io.getmage.demo_app.premium_plus");
+            expect(productName).to.equal(@"premium_plus");
         }];
     });
     

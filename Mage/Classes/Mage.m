@@ -147,11 +147,11 @@ bool scheduledSaveStateInProgress;
 // UTILITY HELPERS
 // -------------------------------------------
 - (void) getProductNameFromId: (NSString*)iapID completionHandler: (void (^)(NSError* err, NSString* productName))completion{
-    MageLog(@"%@", iapID);
 
     for (NSDictionary* internalIapObj in supportState[@"cachedProducts"]) {
         if([internalIapObj[@"iapIdentifier"] isEqualToString:iapID]){
             completion(nil, internalIapObj[@"productName"]);
+            return;
         }
     }
 
@@ -216,6 +216,8 @@ bool scheduledSaveStateInProgress;
         completion(parseError, nil);
         return;
     }
+    
+    // MageLog(@"%@", [[NSString alloc]initWithData:jsonBodyData encoding:NSUTF8StringEncoding]);
     
     NSMutableURLRequest *request = [NSMutableURLRequest new];
     request.HTTPMethod = @"POST";
@@ -303,7 +305,7 @@ bool scheduledSaveStateInProgress;
     MageLog(@"..");
     supportState                         = [[NSMutableDictionary alloc] init];
     
-    supportState[@"cachedProducts"]      = [[NSMutableDictionary alloc] init];
+    supportState[@"cachedProducts"]      = [[NSMutableArray alloc] init];
 }
 
 // call this every time something changes
