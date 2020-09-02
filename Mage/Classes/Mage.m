@@ -17,7 +17,7 @@
 #define MAGEERRORDOMAIN @"MAGEDOMAIN"
 #define LOCALCACHEKEY @"MageLocalCache"
 #define LOCALCACHEKEYSUPPORT @"MageLocalCacheSupport"
-#define MAGEDEBUG true
+#define MAGEDEBUG false
 
 #if MAGEDEBUG
     #define MageLog(x,...) NSLog(@"%s %@", __FUNCTION__, [NSString stringWithFormat:(x), ##__VA_ARGS__])
