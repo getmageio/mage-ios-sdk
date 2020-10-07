@@ -16,12 +16,24 @@ describe(@"Mage sharedInstance", ^{
     beforeAll(^{
         NSLog(@"\n----------------------------------------------------\n");
         NSLog(@"\n                 MAGE iOS SDK TEST                  \n");
-        NSLog(@"\n----------------------------------------------------\n");  
+        NSLog(@"\n----------------------------------------------------\n");
+        // sleep in a non-blocking way for at least 5 seconds
+        // this way we let the test app load wich initializes the sdk
+        
+        waitUntil(^(DoneCallback done) {
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^ {
+                done();
+            });
+        });
     });
     
     it(@"can load a product", ^{
         NSString *someProduct = [[Mage sharedInstance] getIdFromProductName:@"premium_plus" withFallback:@"io.getmage.demo_app.premium_plus_1_25"];
         expect(someProduct).toNot.equal(@"io.getmage.demo_app.premium_plus_1_25");
+    });
+    
+    it(@"can set user identifier", ^{
+        [[Mage sharedInstance] setUserIdentifier:@"myUserId"];
     });
     
     it(@"falls back to default product", ^{

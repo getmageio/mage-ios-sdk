@@ -17,7 +17,7 @@
 #define MAGEERRORDOMAIN @"MAGEDOMAIN"
 #define LOCALCACHEKEY @"MageLocalCache"
 #define LOCALCACHEKEYSUPPORT @"MageLocalCacheSupport"
-#define MAGEDEBUG false
+#define MAGEDEBUG true
 
 #if MAGEDEBUG
     #define MageLog(x,...) NSLog(@"%s %@", __FUNCTION__, [NSString stringWithFormat:(x), ##__VA_ARGS__])
@@ -104,7 +104,15 @@ bool scheduledSaveStateInProgress;
        }];
     }
 
-    [self saveToCache];
+    [self scheduleSaveState];
+}
+
+- (void) setUserIdentifier: (NSString*)userId{
+    MageLog(@"%@", userId);
+    if(currentState){
+        currentState[@"appUserId"] = userId;
+    }
+    [self scheduleSaveState];
 }
 
 // -------------------------------------------
