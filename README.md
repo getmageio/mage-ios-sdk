@@ -53,7 +53,7 @@ pod 'Mage'
 
 ### 2) Get your in app purchase IDs
 
-Wherever you show in app purchases, call `getIdFromProductName` to get the correct in app purchase ID. This could be, for example, somewhere in your ViewController for your store view / popup.
+Wherever you show in-app purchases, call `getIdFromProductName` to get the in-app purchase ID for the pricing Mage recommends. This could be, for example, somewhere in your ViewController for your store view/popup. As an additional safety layer, you need to set a fallback ID. Simply use your default product as fallback ID. The fallback will recover you in case some unexpected error during the transmission might happen, so `getIdFromProductName` will always return an in-app purchase ID.
 
 ```objective-c
 // Get the correct in app purchase id to show to the user
@@ -61,7 +61,7 @@ Wherever you show in app purchases, call `getIdFromProductName` to get the corre
 NSString *myInAppPurchaseID = [[Mage sharedInstance] getIdFromProductName:@"MyProduct" withFallback:@"com.myapp.fallbackID"]
 ```
 
-### 3) Know what you sold
+### 3) Know what you sold (optional)
 
 In some cases, you might want to know what the user bought so you can send it to a CRM,
 your own backend or for some custom logic inside your app. `getProductNameFromId` will help you out!
@@ -75,10 +75,10 @@ your own backend or for some custom logic inside your app. `getProductNameFromId
 }];
 ```
 
-### 4) Identify the user for our Subscription Lifetime Value Tracking (optional)
-Subscription status tracking is usually done on your backend or by some third party service. Apple or Google sends real-time subscription status updates that you interpret and take action on. This is why we provide a simple Web API to enable subscription lifetime value tracking for Mage. Apple or Google contacts your backend, your backend contacts Mage.
+### 4) Identify the user for our Subscription Lifetime Value Tracking (recommended)
+Subscription status tracking is essential to adequately track the durations of your subscriptions and identify free trial and introductory price offer conversion rates. To make this feature work, you need to implement the `setUserIdentifier` method so that we can identify the calls from your backend. Set the user identifier as soon as you have generated the identifier in your app.
 
-This way, we can adequately track the durations of your subscriptions and identify free trial and introductory price offer conversion rates. To make this feature work, you need to implement the `setUserIdentifier` method so that we can identify the calls from your backend. [Learn more about our Subscription Lifetime Value Tracking Feature](link...).
+ Usually, Subscription status tracking is done on your backend or by some third party service. Apple or Google sends real-time subscription status updates that you interpret and take action on. This is why we provide a simple Web API to enable subscription lifetime value tracking for Mage. Apple or Google contacts your backend, your backend contacts Mage. [Learn more about our Subscription Lifetime Value Tracking Feature](https://www.getmage.io/documentation/iap-state-tracking).
 
 ```objective-c
 [[Mage sharedInstance] setUserIdentifier:@"myUserIdentifier"];
